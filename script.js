@@ -23,11 +23,15 @@ function getCookie(cname) {
   return "";
 }
 
+
 if (getCookie('theme')) {
   document.querySelector('html').setAttribute('data-theme', getCookie('theme'))
 } else {
   setCookie('theme', 'sunset')
 }
+
+
+themes[0].setAttribute('aria-label', `Default (${getCookie('theme')})`)
 
 themes.forEach(theme => {
   theme.onclick = function() {

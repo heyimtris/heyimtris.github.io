@@ -1,0 +1,78 @@
+<html data-theme="sunset">
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+  <div class="navbar bg-base-100">
+  <div class="navbar-start">
+  <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+      </div>
+      <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box">
+             <li><a href="/#about">About</a></li>
+      <li>
+        <details>
+          <summary>Projects</summary>
+          <ul class="p-2"> 
+            <li><a onclick="window.location.reload()">Eclipse / Echo</a></li>
+     
+            <li><a href="tjvs.html">TJVS Clips</a></li>
+            <li><a href="circuit.html">Circuit</a></li>
+            
+            <li><a href="/projects">All Projects</a></li>
+          </ul>
+        </details>
+      </li>
+      <li><a href="/music.html">Music</a></li> 
+      </ul>
+    </div>
+    <a class="btn btn-ghost text-xl" href="/"><img src="https://i.ibb.co/xYw4qxM/image.png" width="50" id="logo"></a>
+  </div>
+  <div class="navbar-center hidden lg:flex">
+    <ul class="menu menu-horizontal px-1">
+      <li><a>About</a></li>
+       <li>
+        <details>
+          <summary>Projects</summary>
+          <ul class="p-2"> 
+            <li><a onclick="window.location.reload()">Eclipse / Echo</a></li>
+     
+            <li><a href="tjvs.html">TJVS Clips</a></li>
+            <li><a href="circuit.html">Circuit</a></li>
+           <li><a href="/projects">All Projects</a></li>
+          </ul>
+        </details>
+      </li>
+      <li><a href="/music.html">Music</a></li> 
+    </ul>
+  </div>
+  <div class="navbar-end">
+<div class="dropdown dropdown-end">
+  <div tabindex="0" role="button" class="btn m-1">
+    Theme
+    <svg width="12px" height="12px" class="h-2 w-2 fill-current opacity-60 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048"><path d="M1799 349l242 241-1017 1017L7 590l242-241 775 775 775-775z"></path></svg>
+  </div>
+  <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+    <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Default (sunset)" value="default"/></li>
+     <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Dark" value="dark"/></li>
+    <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Sunset" value="sunset"/></li>
+    <li><input type="radio" name="theme-dropdown" class="theme-controller btn btn-sm btn-block btn-ghost justify-start" aria-label="Aqua" value="aqua"/></li>
+  </ul>
+</div>
+  </div>
+</div>
+<div class="hero min-h-screen bg-base-300 p-20">
+  <div class="hero-content flex-col lg:flex-row-reverse gap-10">
+    <div class="flex flex-col gap-0 margin-0">
+      <h1 class="text-5xl font-bold">All Projects</h1><br>
+      <a class="py-6 link link-hover" href="eclipse.html">Eclipse / Echo<a>
+        <a class="py-6 link link-hover" href="tjvs.html">TJVS<a>
+        <a class="py-6 link link-hover" href="circuit.html">Circuit<a>
+  </div>
+</div>
+    </div>
+</body>
+</html>

@@ -35,6 +35,7 @@ themes[0].setAttribute('aria-label', `Default (${getCookie('theme')})`)
 
 themes.forEach(theme => {
   theme.onclick = function() {
-    setCookie('theme', theme.value) 
+    setCookie('theme', theme.value)
+    document.querySelector('html').setAttribute('data-theme', getCookie('theme'));
   }
 }) 
